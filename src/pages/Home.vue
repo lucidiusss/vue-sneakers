@@ -129,7 +129,7 @@ watch(cart, () => {
 
     <div class="flex gap-4">
       <select @change="onChangeSelect" class="py-2 px-3 border rounded-md outline-none">
-        <option value="name">По тест</option>
+        <option value="name">По названию</option>
         <option value="price">По цене(дешевые)</option>
         <option value="-price">По цене(дорогие)</option>
       </select>
